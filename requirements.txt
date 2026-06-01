@@ -1,0 +1,17 @@
+# Core (required)
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+httpx>=0.25.0
+joblib>=1.3.0
+
+# Optional (for LSTM weather forecaster - install locally, skip on free cloud tier)
+# torch>=2.0.0
+
+# Optional (for advanced NLP)
+# spacy>=3.6.0
+# transformers>=4.30.0
